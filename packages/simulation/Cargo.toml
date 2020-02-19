@@ -1,0 +1,13 @@
+[package]
+name = "compactfusio"
+version = "0.1.0"
+authors = ["Jonathan Kelley <jkelleyrtp@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# em = {git="https://github.com/calebwin/emu.git"}
+em = { git="https://github.com/calebwin/emu.git", branch="dev" }
+dimensioned = "0.7.0"
+vector3d = "0.1.8"
